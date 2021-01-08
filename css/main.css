@@ -12,7 +12,7 @@ body {
 
 main {
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
 }
 
 .header {
@@ -50,4 +50,9 @@ main {
   width: 100%;
   color: #fff;
   background-color: #444;
+}
+
+footer {
+  padding: 0 10px;
+  text-align: center;
 }
