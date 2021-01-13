@@ -10,7 +10,7 @@
     <header class="header">
       <nav>
         <div>
-          <a href=" ./" class="brand-logo"><h1>&nbsp;GirlCode</h1></a>
+          <a href="/" class="brand-logo"><h1>&nbsp;GirlCode</h1></a>
           <ul class="nav-links">
             <li><a href="signup.html">Sign Up</a></li>
             &nbsp;
@@ -19,7 +19,37 @@
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="country">zipcode</label>
+        <input type="text" />
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 20px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
     <br />
     <footer role="content-info">&copy; 2020 GirlCode</footer>
   </body>
